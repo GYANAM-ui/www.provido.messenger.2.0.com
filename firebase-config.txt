@@ -1,0 +1,10 @@
+  var firebaseConfig = {
+    apiKey: "AIzaSyAQNhUpZ-GIlakWly2WRmxwms4gIlg5mIQ",
+    authDomain: "my-first-authication.firebaseapp.com",
+    projectId: "my-first-authication",
+    storageBucket: "my-first-authication.appspot.com",
+    messagingSenderId: "528288012369",
+    appId: "1:528288012369:web:bc26e9439d08caddae8070"
+  };
+
+  firebase.initializeApp(firebaseConfig);

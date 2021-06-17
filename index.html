@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/styles/style.css">
+    <link rel="shortcut icon" href="./public/images/appletouchicon.png" type="image/x-icon">
+    <title>ProVido Mess</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h3 class="btn btn-warning heading">
+        <b>Welcome! To ProVido Mess 2.0</b>
+    </h3>
+
+    <a href="mailto:teamprovid@gmail.com" class="btn btn-primary" id="bubble">
+        <i class="fa fa-envelope"></i>
+    </a>
+
+    <!-- Login div tags -->
+    <center>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+            <br>
+            <div class="form-group">
+                <h3 class="text-primary">Login</h3>
+                <br>
+                <label>Enter your name: </label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name..">
+                <label>Enter your email: </label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email..">
+                <label>Enter your room: </label>
+                <input type="text" name="room" id="room" class="form-control" placeholder="Enter your room..">
+                <span class="text-danger hint" id="invalid_error">*Enter your room name to join and create.</span>
+                <br><br>
+                <button class="btn btn-primary" onclick="getStarted();">Login</button>
+            </div>
+            <br>
+        </div>
+
+        <br><br>
+
+        <div class="form-group info">
+            <h5 class="text-capitalize">
+                hello! my name is gyanam gogoi
+                <hr>
+                <p class="text-muted">
+                    I'm the Founder, CEO and Developer of ProVido and ProVido Mess 2.0. <br> Do you want to contact me right <a href="mailto:teamprovid@gmail.com?Subject= Issue ==&body= Hello Gyanam Gogoi," target="_blank" rel="noopener noreferrer">here</a>.
+                    <hr>
+                    <h6>More information in our website <a href="https://7p08exzifrh9lahkvluqja-on.drv.tw/PROVID%20MEETI/login.html" target="_blank" rel="noopener noreferrer">www.provido.com</a></h6>
+                </p>
+            </h5>
+        </div>
+    </center>
+
+    <script type="text/javascript" src="./src/login.js"></script>
+</body>
+
+</html>

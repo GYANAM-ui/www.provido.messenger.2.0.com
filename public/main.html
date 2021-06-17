@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="./images/appletouchicon.png" type="image/x-icon">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+
+<body id="color_change">
+    <h3 class="btn btn-warning heading" id="room_name"> </h3>
+    <br>
+    <button class="btn btn-default" onclick="logout_">
+        <i class="fa fa-arrow-left" style="color: white;"></i>
+    </button>
+
+    <center>
+        <div id="output" style="text-align: left;margin-bottom: 70px;"></div>
+    </center>
+
+    <center>
+        <div class="input_div_message_page">
+            <br>
+            <input id="msg" class="form-control" placeholder="Aa">
+            <button class="btn btn-default sent" onclick="send()">
+            <i class="fa fa-paper-plane"></i>
+            </button>
+            <button class="btn btn-info" onclick="invitee();">
+                <i class="fa fa-user-plus"></i>
+            </button>
+            <br><br>
+        </div>
+    </center>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

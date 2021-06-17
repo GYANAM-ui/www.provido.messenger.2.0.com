@@ -1,0 +1,47 @@
+html,
+body {
+    scroll-behavior: smooth;
+    background: #FF8008;
+    background: -webkit-linear-gradient(to right, #FFC837, #FF8008);
+    background: linear-gradient(to right, #FFC837, #FF8008);
+}
+
+.heading {
+    width: 100%;
+    cursor: default;
+    color: #ffffff;
+    font-family: 'Viaoda Libre', cursive;
+}
+
+.login_div {
+    background: rgb(255, 255, 255);
+    float: none;
+    border-radius: 5px;
+    border: 2px dotted grey;
+    border-color: #ddd;
+}
+
+.login_div button {
+    width: 65%;
+    border-radius: 30px;
+}
+
+.login_div input {
+    border-radius: 5px;
+}
+
+.info {
+    width: 60%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#bubble {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+    right: 15px;
+    position: fixed;
+}
